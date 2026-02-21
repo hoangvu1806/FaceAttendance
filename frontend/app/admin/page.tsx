@@ -40,8 +40,7 @@ export default function AdminPage() {
 
   if (!token) return (
         <div className="hud-login-container">
-            <div className="hud-login-box">git add frontend
-            
+            <div className="hud-login-box">
                 <h1 className="hud-login-title">COMMAND CENTER</h1>
                 <p className="hud-login-subtitle">System Access Control</p>
                 <form onSubmit={handleLogin}>
